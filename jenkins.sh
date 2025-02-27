@@ -24,4 +24,4 @@ docker build -t ${image} .
 
 # 运行容器
 echo "=========容器运行========="
-docker run -d -it --restart=always --name ${container} -p 8088:8088 ${image} -Duser.timezone=GMT+8
+docker run -d -it --restart=always --name ${container} -p 8088:8080 ${image} -Duser.timezone=GMT+8
