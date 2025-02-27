@@ -55,7 +55,6 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <mainClass>com.example.jenkinstest.JenkinsTestApplication</mainClass>
-                    <skip>true</skip>
                 </configuration>
                 <executions>
                     <execution>
